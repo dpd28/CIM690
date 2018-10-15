@@ -1,0 +1,28 @@
+/* This helps to see the div containers */
+
+.red {
+  background: red;
+}
+
+.blue {
+  background: orange;
+}
+
+.violet {
+  background: violet;
+}
+
+.green {
+  background: green;
+}
+
+h1 {
+  text-align: center;
+  font-family: Georgia;
+  font-size: 54px;
+}
+
+p {
+  font-family: "Georgia";
+  line-height: 1.7;
+}

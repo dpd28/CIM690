@@ -1,0 +1,49 @@
+h1 {
+  color: #14B1FF;
+  font-family: "Georgia", serif;
+  font-size: 32px;
+}
+/* ----
+background-size cover fts in the frames
+----- */
+
+body {
+  background: #C9FFFE;
+  background: url("../img/light-grey-terrazzo.png")
+}
+
+div.test-main {
+  color: #FFF;
+  width: 500px;
+  height: 50px;
+  margin-top: 50px;
+  padding: 20px;
+  border: 6px solid #FFF;
+}
+div.test {
+  background: orange;
+}
+
+div.test-2 {
+  background-color: blue;
+  width: 200px;
+}
+
+ul.left-nav {
+  list-style: none;
+  font-size: 10px;
+
+}
+
+ul.left-nav li {
+  padding: 10px;
+  background: orange;
+  border-bottom: white 3px solid;
+  width: 200px;
+
+}
+
+ul.left-nav li:hover {
+  background: yellow;
+  cursor: pointer;
+}
