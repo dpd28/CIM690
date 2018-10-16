@@ -27,6 +27,9 @@ body {
     font-size: 14px;
 }
 
+/* ----------
+Heading styles
+ ---------- */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif;
 }
@@ -34,8 +37,27 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 60px;
 }
+
+/* ----------
+Link styles
+---------- */
+a {
+  color: #A62D7C;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.first {
+  padding-left: 0;
+}
+
+/* ---------
+Navigation
+---------- */
 .nav {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .nav a {
   text-transform: uppercase;
@@ -43,6 +65,8 @@ h1 {
   font-weight: 700;
   color: #184B6D;
 }
+
+
 .kicker {
   text-transform: uppercase;
   border-bottom: 1px solid #184B6D;
@@ -50,10 +74,24 @@ h1 {
 }
 
 .row p.kicker {
-  font-weight:500;
+  font-weight:700;
+  letter-spacing: 1px;
 }
 
 .row {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+/* ----------
+footer
+----------- */
+footer {
+  padding-top: 100px;
+}
+
+footer p {
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  line-height: 1.5;
 }
