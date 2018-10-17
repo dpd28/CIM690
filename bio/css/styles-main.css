@@ -125,6 +125,12 @@ Navigation
   margin-bottom: 50px;
 }
 
+p.attribution {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 /* ----------
 footer
 ----------- */
