@@ -59,20 +59,20 @@ h1 {
 }
 
 /* Can't have both media max width --------------- */
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 992px) {
   h1 {
-      font-size: 30px;
-  }
-
-  .left {
-    padding-left: 2em;
+      font-size: 35px;
   }
 }
 
-@media screen and (max-width: 992px) {
-  h1 {
-      font-size: 40px;
-  }
+h2 {
+  font-size: 41px;
+  padding-bottom: 20px;
+}
+
+span.note {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* ----------
