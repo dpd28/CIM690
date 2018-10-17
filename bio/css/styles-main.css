@@ -17,14 +17,20 @@ font-family: 'Open Sans', sans-serif;
   background: pink;
 }
 
-
 body {
-    background-image: linear-gradient(165deg, #E6F6FF, #FFC9D2);
+  color: #184B6D;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2.0;
+  font-size: 15px;
+}
+
+body#home {
+  background-image: linear-gradient(165deg, #E6F6FF, #FFC9D2);
     /* background: rgb(250,218,221); */
-    color: #184B6D;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 2.0;
-    font-size: 14px;
+}
+
+body#places {
+    background-image: linear-gradient(165deg, #E3FFFC, #FFE9C9);
 }
 
 /* ----------
@@ -36,6 +42,23 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 60px;
+}
+
+/* Can't have both media max width --------------- */
+@media only screen and (max-width: 600px) {
+  h1 {
+      font-size: 30px;
+  }
+
+  .left {
+    padding-left: 2em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  h1 {
+      font-size: 40px;
+  }
 }
 
 /* ----------
@@ -67,6 +90,10 @@ Navigation
   color: #184B6D;
 }
 
+.nav a:hover {
+  color: #A62D7C;
+}
+
 
 .kicker {
   text-transform: uppercase;
@@ -80,7 +107,7 @@ Navigation
 }
 
 .row {
-  margin-top: 50px;
+  margin-top: 70px;
   margin-bottom: 50px;
 }
 
